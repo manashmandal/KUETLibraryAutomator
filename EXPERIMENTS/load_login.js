@@ -15,13 +15,13 @@ page.onLoadFinished = function(){
         page.evaluate(fillLoginInfo);
         return;
     } else {
-        page.render("LOGINMADAFAKA.png");
+        page.render("loginproof.png");
     }
 
     console.log("Logged in");
 
     if (page.title.search("Central Library, KUET catalog") > 0){
-        page.evalu
+        console.log("Got the page");
     }
 
     phamtom.exit();
