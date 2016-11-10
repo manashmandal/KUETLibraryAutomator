@@ -31,7 +31,6 @@ import java.util.ResourceBundle;
 public class DetailsController implements Initializable {
 
 
-
     @FXML
     private TableView tableView;
 
