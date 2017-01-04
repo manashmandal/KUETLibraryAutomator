@@ -1,7 +1,13 @@
 package Automator;
+
+/**
+ * Created by Manash on 04-Jan-17.
+ */
 import com.jaunt.Elements;
 import com.jaunt.JauntException;
 import com.jaunt.UserAgent;
+
+
 
 import java.util.ArrayList;
 
@@ -39,12 +45,12 @@ public class User {
 
     private void init(){
         browser = new UserAgent();
-        RenewalsLeft = new ArrayList<>();
-        Calls = new ArrayList<>();
-        Authors = new ArrayList<>();
-        Dues = new ArrayList<>();
-        SerialNo = new ArrayList<>();
-        BookNames = new ArrayList<>();
+        RenewalsLeft = new ArrayList<String>();
+        Calls = new ArrayList<String>();
+        Authors = new ArrayList<String>();
+        Dues = new ArrayList<String>();
+        SerialNo = new ArrayList<String>();
+        BookNames = new ArrayList<String>();
     }
 
     public User () {
